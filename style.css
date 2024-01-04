@@ -1,0 +1,125 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+    background-color: #BD9DEA;
+}
+
+
+
+h1 {
+    color: rgb(54, 52, 51);
+    margin-bottom: -5px;
+}
+
+p {
+    margin-bottom: -10px;
+}
+
+.ui {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    border: none;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #F2C76E;
+}
+
+.cell:active {
+    outline: none;
+}
+
+#b1 {
+    border-bottom: 1px solid #4a3c20;
+    border-right: 1px solid #4a3c20;
+}
+
+#b2 {
+    border-bottom: 1px solid #4a3c20;
+    border-right: 1px solid #4a3c20;
+    border-left: 1px solid #4a3c20;
+}
+
+#b3 {
+    border-bottom: 1px solid #4a3c20;
+    border-left: 1px solid #4a3c20;
+}
+
+#b4 {
+    border-top: 1px solid #4a3c20;
+    border-bottom: 1px solid #4a3c20;
+    border-right: 1px solid #4a3c20;
+}
+
+#b5 {
+    border: 1px solid #4a3c20;
+}
+
+#b6 {
+    border-top: 1px solid #4a3c20;
+    border-bottom: 1px solid #4a3c20;
+    border-left: 1px solid #4a3c20;
+}
+
+#b7 {
+    border-top: 1px solid #4a3c20;
+    border-right: 1px solid #4a3c20;
+}
+
+#b8 {
+    border-top: 1px solid #4a3c20;
+    border-right: 1px solid #4a3c20;
+    border-left: 1px solid #4a3c20;
+}
+
+#b9 {
+    border-top: 1px solid #4a3c20;
+    border-left: 1px solid #4a3c20;
+}
+
+#but {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid rgb(248, 248, 248);
+    margin-left: auto;
+    border-radius: 8px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    background-color: whitesmoke;
+    color: #4a3c20;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#print {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+    color: #4a3c20;
+    font-size: 20px;
+}
+
+#main {
+    text-align: center;
+}
+
+#ins {
+    font-family: Verdana, Geneva,
+        Tahoma, sans-serif;
+    color: rgb(246, 248, 251);
+}
